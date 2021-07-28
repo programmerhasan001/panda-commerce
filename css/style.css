@@ -12,3 +12,10 @@
 .shoe-bg{
     background: #0000FF;
 }
+.btn-panda{
+    background-image: linear-gradient(to bottom, #ff589B 0%, #ff4b92 100%);
+    color: #fff;
+}
+.btn-panda:hover{
+    color: #fff;
+}
