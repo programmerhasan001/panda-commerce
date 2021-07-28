@@ -11,6 +11,8 @@
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -47,9 +49,9 @@
             <!-- website slider -->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-info rounded-3 my-4 py-3 px-5">
+                    <div class="carousel-item active rounded-3 my-4 py-3 px-5 slider-bg">
                         <div class="row row-cols-1 row-cols-sm-2 d-flex align-items-center">
-                            <div class="col slider-info col-md-7">
+                            <div class="col slider-info col-md-7 order-1 order-sm-0">
                                 <h2>Cool Dude Headphone</h2>
                                 <p>
                                     This is the best headphone in the world for people who just want to waste time in
@@ -59,15 +61,15 @@
                                 <p>$420</p>
                                 <button class="btn btn-danger">Buy Now</button>
                             </div>
-                            <div class="col col-md-5">
+                            <div class="col col-md-5 order-0 order-sm-1">
                                 <img src="./images/banner-images/headphone.png" class="d-block w-100"
                                     alt="headphone-image">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info rounded-3 my-4 py-3 px-5">
+                    <div class="carousel-item rounded-3 my-4 py-3 px-5 slider-bg">
                         <div class="row row-cols-1 row-cols-sm-2 d-flex align-items-center">
-                            <div class="col slider-info col-md-7">
+                            <div class="col slider-info col-md-7 order-1 order-sm-0">
                                 <h2>Mega LCD TV For Sports</h2>
                                 <p>
                                     This is the best tv in the world for people who just want to waste time in front of
@@ -76,14 +78,14 @@
                                 <p>$1200</p>
                                 <button class="btn btn-danger">Buy Now</button>
                             </div>
-                            <div class="col col-md-5">
+                            <div class="col col-md-5 order-0 order-sm-1">
                                 <img src="./images/banner-images/tv.png" class="d-block w-100" alt="headphone-image">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info rounded-3 my-4 py-3 px-5">
+                    <div class="carousel-item rounded-3 my-4 py-3 px-5 slider-bg">
                         <div class="row row-cols-1 row-cols-sm-2 d-flex align-items-center">
-                            <div class="col slider-info col-md-7">
+                            <div class="col slider-info col-md-7 order-1 order-sm-0">
                                 <h2>X-Box for your living room</h2>
                                 <p>
                                     This is the best x-box in the world for people who just want to waste time in front
@@ -92,7 +94,7 @@
                                 <p>$600</p>
                                 <button class="btn btn-danger">Buy Now</button>
                             </div>
-                            <div class="col col-md-5">
+                            <div class="col col-md-5 order-0 order-sm-1">
                                 <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="headphone-image">
                             </div>
                         </div>
@@ -116,22 +118,22 @@
         <div class="row g-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div class="col">
                 <div
-                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 bg-warning text-white rounded-3">
-                    <h4 class="fs-md-1">Watch</h4>
+                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 text-white rounded-3 watch-bg">
+                    <h4 class="fs-2">Watch</h4>
                     <img class="img-fluid" src="./images/categories/watch.png" alt="Watch-image">
                 </div>
             </div>
             <div class="col">
                 <div
-                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 bg-success text-white rounded-3">
-                    <h4 class="fs-md-1">Bag</h4>
+                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 text-white rounded-3 bag-bg">
+                    <h4 class="fs-2">Bag</h4>
                     <img class="img-fluid" src="./images/categories/bag.png" alt="Bag-images">
                 </div>
             </div>
             <div class="col">
                 <div
-                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 bg-danger text-white rounded-3">
-                    <h4 class="fs-md-1">Shoes</h4>
+                    class="categories-content d-flex align-items-center justify-content-between py-1 px-4 text-white rounded-3 shoe-bg">
+                    <h4 class="fs-2">Shoes</h4>
                     <img class="img-fluid" src="./images/categories/shoes.png" alt="Shoes-images">
                 </div>
             </div>
@@ -181,7 +183,7 @@
         <h2 class="section-title py-4">Backpack</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100 border-0 shadow-lg">
+                <div class="card h-100 border-0 shadow-sm">
                     <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Red Bag</h5>
@@ -195,7 +197,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 border-0 shadow-lg">
+                <div class="card h-100 border-0 shadow-sm">
                     <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Blue Bag</h5>
@@ -209,7 +211,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 border-0 shadow-lg">
+                <div class="card h-100 border-0 shadow-sm">
                     <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Black Bag</h5>
@@ -226,6 +228,22 @@
             </div>
         </div>
     </section>
+    <!-- subscribe -->
+    <section class="container py-5 d-flex justify-content-center rounded-3 subscribe-bg">
+        <div class="subscribe-details col-12 col-md-6 col-lg-4">
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales, specials and more</p>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="YOUR EMAIL" class="form-control">
+                <button class="btn btn-danger text-uppercase mt-2">submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center mt-5">
+            <p><small>&copy;2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+        </div>
+    </footer>
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
