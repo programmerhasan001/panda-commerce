@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
                         <img src="./images/logo.png" alt="website-logo">
@@ -31,16 +31,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
+                                <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Backpack</a>
+                                <a class="nav-link" href="#Backpack">Backpack</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -140,8 +140,8 @@
         </div>
     </section>
     <!-- Shoes section -->
-    <section class="container my-4">
-        <h2 class="section-title pb-3">Shoes</h2>
+    <section class="container my-4" id="shoes">
+        <h2 class="section-title py-3">Shoes</h2>
         <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div class="col">
                 <div class="shoes-content shadow-lg p-4">
@@ -179,7 +179,7 @@
         </div>
     </section>
     <!-- Backpack section -->
-    <section class="container py-4">
+    <section class="container py-4" id="Backpack">
         <h2 class="section-title py-4">Backpack</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
@@ -229,7 +229,7 @@
         </div>
     </section>
     <!-- subscribe -->
-    <section class="container py-5 d-flex justify-content-center rounded-3 subscribe-bg">
+    <section class="container py-5 d-flex justify-content-center rounded-3 subscribe-bg" id="subscribe">
         <div class="subscribe-details col-12 col-md-6 col-lg-4">
             <h2>LET'S STAY IN TOUCH</h2>
             <p>Get updates on sales, specials and more</p>
